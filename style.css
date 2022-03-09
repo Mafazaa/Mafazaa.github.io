@@ -47,6 +47,9 @@ table {
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nunito:wght@700&family=Playfair+Display:wght@500&family=Poppins:wght@600&display=swap');
 /*---*/
+body {
+  margin: 0 auto;
+}
 
 .container {
   max-width: 80%;
@@ -620,7 +623,7 @@ footer span:hover {
   }
   .container-second .header2 {
     margin-top: 25px;
-    width: 80%;
+    width: 90%;
   }
 
   .container-second {
@@ -676,7 +679,9 @@ footer span:hover {
   footer {
     font-size: 12px;
   }
-  
+  .container-fifth .container-second .header2 {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width:651px) and (max-width: 900px) {
