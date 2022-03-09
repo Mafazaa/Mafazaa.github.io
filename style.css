@@ -592,7 +592,7 @@ footer span:hover {
 
 
 /*Responsive*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .container {
     max-width: 100%;
     border-left: none;
@@ -675,7 +675,7 @@ footer span:hover {
   
 }
 
-@media screen and (min-width:601px) and (max-width: 900px) {
+@media screen and (min-width:651px) and (max-width: 900px) {
   .container {
     max-width: 100%;
     border-left: none;
@@ -691,6 +691,9 @@ footer span:hover {
   .header-main {
     margin-top: 50px;
   }
+  .sumber a{
+    font-size: 13px;
+  }
 
   .container-tahukah {
     flex-direction: column-reverse;
@@ -701,6 +704,12 @@ footer span:hover {
   }
   .container-fourth .container4 .container4-1 .content3 span{
     font-size: 14px;
+  }
+  .container-twelfth .akhir{
+    display: none;
+  }
+  .container-eleventh .container3-2 .card {
+    flex: 100%;
   }
 }
 
