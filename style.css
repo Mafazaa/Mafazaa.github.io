@@ -608,15 +608,19 @@ footer span:hover {
   .content-header-main span{
     margin-top: 15px;
     font-size: 16px;
-    text-align: end;
+    text-align: center;
   }
 
   .container-tahukah {
     flex-direction: column-reverse;
   }
-
+  .container-second .container-tahukah {
+    justify-content: center;
+    align-items: center;
+  }
   .container-second .header2 {
     margin-top: 25px;
+    width: 80%;
   }
 
   .container-second {
